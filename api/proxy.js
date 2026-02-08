@@ -1,6 +1,6 @@
 export default async function handler(req, res) {
   try {
-    const upstream = await fetch("http://65.109.112.222");
+    const upstream = await fetch("http://152.53.37.155/");
     const body = await upstream.text();
 
     res.setHeader("X-Frame-Options", "ALLOWALL");
